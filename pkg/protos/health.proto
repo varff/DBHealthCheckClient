@@ -1,0 +1,8 @@
+syntax = "proto3";
+import "messages.proto";
+option go_package = "./protos";
+import "google/protobuf/empty.proto";
+
+service SmallHealthService {
+  rpc Check(google.protobuf.Empty) returns (Health);
+}

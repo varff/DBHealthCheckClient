@@ -126,3 +126,4 @@ test/main.go
 /es-data01/
 /configs/db.env
 /configs/mongo.env
+/configs/conf.env
